@@ -1,5 +1,5 @@
 import React from "react";
-import SpinOff from "../../components/spinoff/SpinOff";
+import SpinOff from "../components/spinoff/SpinOff";
 
 const SpinOffPage = () => {
   return <SpinOff />;

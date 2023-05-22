@@ -1,8 +1,8 @@
 import React from "react";
 
 import "./App.css";
-import { Header } from "../components/Header/Header";
-import Principal from "../components/principal/Principal";
+import { Header } from "./components/Header/Header";
+import Principal from "./components/principal/Principal";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import EgoPage from "./pages/EgoPage";
 import SpinOffPage from "./pages/SpinOffPage";

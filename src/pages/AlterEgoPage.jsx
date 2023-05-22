@@ -1,5 +1,5 @@
 import React from "react";
-import AlterEgo from "../../components/alterego/AlterEgo";
+import AlterEgo from "../components/alterego/AlterEgo";
 
 const AlterEgoPage = () => {
   return <AlterEgo />;

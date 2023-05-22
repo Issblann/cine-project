@@ -1,7 +1,7 @@
 import React from "react";
 import "./principal.css";
 
-import principalIMG from "../../src/assets/imagenes/principal.jpg";
+import principalIMG from "../../assets/imagenes/principal.jpg";
 const Principal = () => {
   return (
     <section id="principal">
