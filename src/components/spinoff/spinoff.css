@@ -12,7 +12,8 @@ section {
 }
 
 .title {
-  font-size: 40px;
+  font-size: 60px;
+  cursor: pointer;
 }
 .title-4 {
   color: #556c90;

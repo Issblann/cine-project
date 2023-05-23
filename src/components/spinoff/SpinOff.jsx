@@ -7,14 +7,9 @@ const SpinOff = () => {
   return (
     <section id="spin-off">
       <div className="container">
-        <h1 className="title title-4">SPIN-OFF</h1>
-
-        <img
-          className="spinoff-img"
-          src={ImgComic}
-          onClick={toggleText}
-          alt="Imagen_paracomic"
-        />
+        <h1 onClick={toggleText} className="title title-4">
+          SPIN-OFF
+        </h1>
 
         {showText && (
           <p>

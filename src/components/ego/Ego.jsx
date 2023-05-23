@@ -12,14 +12,9 @@ const Ego = () => {
   return (
     <section id="ego">
       <div className="container">
-        <h1 className="title title-2">EGO</h1>
-        <img
-          src={superego}
-          width="400px"
-          height="400px"
-          alt="superego"
-          onClick={toggleText}
-        />
+        <h1 onClick={toggleText} className="title title-2">
+          EGO
+        </h1>
 
         {showText && (
           <p>
