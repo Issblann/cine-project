@@ -1,16 +1,14 @@
 import React from "react";
 import useToggleText from "../../hooks/useImageToggle";
 import "./spinoff.css";
-import ImgComic from "../../assets/imagenes/Imagen_paracomic.jpg";
+import principalImg from "../../assets/imagenes/principal.jpg";
 const SpinOff = () => {
   const [showText, toggleText] = useToggleText(false);
   return (
     <section id="spin-off">
       <div className="container">
-        <h1 onClick={toggleText} className="title title-4">
-          SPIN-OFF
-        </h1>
-
+        <h1 className="title title-4">SPIN-OFF</h1>
+        <img src={principalImg} onClick={toggleText} alt="principalImg" />
         {showText && (
           <p>
             Breiner ha cumplido ya 3 años de condena, hasta que un día, es
@@ -46,6 +44,11 @@ const SpinOff = () => {
           Si quieres ver más click <span></span>
           <a href="https://instagram.com/super_.ego?igshid=MzNlNGNkZWQ4Mg==">
             aqui:
+          </a>
+        </p>
+        <p>
+          <a href="https://drive.google.com/file/d/1-3AmpIpEbLMRvB4_BW2Ho8MHcVIgMUpE/view?usp=drivesdk">
+            Superego
           </a>
         </p>
       </div>

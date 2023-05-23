@@ -1,6 +1,11 @@
 import React from "react";
 import "./alterEgo.css";
 import useToggleText from "../../hooks/useImageToggle";
+import ImgEgo1 from "../../assets/imagenes/Imagen_ego1.jpg";
+import ImgEgo2 from "../../assets/imagenes/Imagen_ego2.jpg";
+import ImgEgo3 from "../../assets/imagenes/Imagen_ego3.jpg";
+import ImgEgo4 from "../../assets/imagenes/Imagen_ego4.jpg";
+import ImgEgo5 from "../../assets/imagenes/Imagen_ego5.jpg";
 import Imagen_alterego1 from "../../assets/imagenes/alterego.jpg";
 
 const AlterEgo = () => {
@@ -84,6 +89,14 @@ const AlterEgo = () => {
             </p>
           </div>
         )}
+
+        <div>
+          <img src={ImgEgo1} alt="Imagen_ego1" />
+          <img src={ImgEgo2} alt="Imagen_ego2" />
+          <img src={ImgEgo3} alt="Imagen_ego3" />
+          <img src={ImgEgo4} alt="Imagen_ego4" />
+          <img src={ImgEgo5} alt="Imagen_ego5" />
+        </div>
       </div>
     </section>
   );

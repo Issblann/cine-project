@@ -1,20 +1,21 @@
 import React from "react";
 import useToggleText from "../../hooks/useImageToggle";
-import ImgEgo1 from "../../assets/imagenes/Imagen_ego1.jpg";
-import ImgEgo2 from "../../assets/imagenes/Imagen_ego2.jpg";
-import ImgEgo3 from "../../assets/imagenes/Imagen_ego3.jpg";
-import ImgEgo4 from "../../assets/imagenes/Imagen_ego4.jpg";
-import ImgEgo5 from "../../assets/imagenes/Imagen_ego5.jpg";
-import superego from "../../assets/imagenes/superego.jpg";
+import egoIMG from "../../assets/imagenes/ego.jpeg";
 import "./ego.css";
 const Ego = () => {
   const [showText, toggleText] = useToggleText(false);
   return (
     <section id="ego">
       <div className="container">
-        <h1 onClick={toggleText} className="title title-2">
-          EGO
-        </h1>
+        <h1 className="title title-2">EGO</h1>
+
+        <img
+          width="300px"
+          height="400px"
+          onClick={toggleText}
+          src={egoIMG}
+          alt="egoIMG"
+        />
 
         {showText && (
           <p>
@@ -76,14 +77,6 @@ const Ego = () => {
             estancado en aquel lugar.
           </p>
         )}
-
-        {/* <div>
-          <img src={ImgEgo1} alt="Imagen_ego1" />
-          <img src={ImgEgo2} alt="Imagen_ego2" />
-          <img src={ImgEgo3} alt="Imagen_ego3" />
-          <img src={ImgEgo4} alt="Imagen_ego4" />
-          <img src={ImgEgo5} alt="Imagen_ego5" />
-        </div> */}
       </div>
     </section>
   );
