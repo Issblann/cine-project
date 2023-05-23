@@ -17,3 +17,10 @@ section {
 .title-2 {
   color: #556c90;
 }
+
+@media (max-width: 640px) {
+  img {
+    width: 200px;
+    height: 300px;
+  }
+}

@@ -15,8 +15,8 @@ const Ego = () => {
         <h1 className="title title-2">EGO</h1>
         <img
           src={superego}
-          width="50%"
-          height="600px"
+          width="400px"
+          height="400px"
           alt="superego"
           onClick={toggleText}
         />

@@ -1,7 +1,7 @@
 import React from "react";
 import "./principal.css";
 
-import principalIMG from "../../assets/imagenes/principal.jpg";
+import superegoImg from "../../assets/imagenes/superego.jpg";
 const Principal = () => {
   return (
     <section id="principal">
@@ -12,7 +12,7 @@ const Principal = () => {
           deceso que fragmenta su vínculo totalmente. GENERO: Drama social
           TARGET: Neas +13
         </p>
-        <img className="principal-img" src={principalIMG} alt="principal" />
+        <img className="principal-img" src={superegoImg} alt="alterEgoImg" />
       </div>
     </section>
   );

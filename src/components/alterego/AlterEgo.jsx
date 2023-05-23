@@ -1,7 +1,7 @@
 import React from "react";
 import "./alterEgo.css";
 import useToggleText from "../../hooks/useImageToggle";
-import Imagen_alterego1 from "../../assets/imagenes/Imagen_alterego1.jpg";
+import Imagen_alterego1 from "../../assets/imagenes/alterego.jpg";
 
 const AlterEgo = () => {
   const [showText, toggleText] = useToggleText(false);
