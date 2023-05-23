@@ -18,7 +18,7 @@ function App() {
             <Route path="/" element={<Principal />} />
             <Route path="/Ego" element={<EgoPage />} />
             <Route path="/AlterEgo" element={<AlterEgoPage />} />
-            <Route path="/SpinOff" element={<SpinOffPage />} />
+            <Route path="/Superego" element={<SpinOffPage />} />
           </Routes>
         </main>
       </BrowserRouter>
