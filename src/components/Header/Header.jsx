@@ -16,7 +16,7 @@ export const Header = () => {
             <Link to="/AlterEgo"> ALTER EGO</Link>
           </li>
           <li>
-            <Link to="/SpinOff"> SPIN-OFF</Link>
+            <Link to="/SpinOff"> SUPEREGO</Link>
           </li>
         </ul>
       </nav>

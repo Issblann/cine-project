@@ -7,7 +7,7 @@ const SpinOff = () => {
   return (
     <section id="spin-off">
       <div className="container">
-        <h1 className="title title-4">SPIN-OFF</h1>
+        <h1 className="title title-4">SUPEREGO</h1>
         <img src={principalImg} onClick={toggleText} alt="principalImg" />
         {showText && (
           <p>
